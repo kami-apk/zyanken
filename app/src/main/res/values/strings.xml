@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">じゃんけん</string>
+    <string name="ranking">ランキング</string>
+    <string name="game_about">～ゲームの説明～</string>
+    <string name="start_start">はじめる。</string>
+    <string name="aaa">わかった</string>
+    <string name="title_activity_ivent_point_bai">ivent_point_bai</string>
+</resources>

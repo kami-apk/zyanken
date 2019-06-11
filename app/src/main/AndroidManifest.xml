@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.kamiapk.zyanken">
+
+    <application
+            android:name="com.kamiapk.zyanken.Reaal"
+            android:allowBackup="true"
+            android:icon="@mipmap/iconf"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <activity
+                android:name="com.kamiapk.zyanken.ivent_point_bai"
+                android:label="@string/title_activity_ivent_point_bai"
+                android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name="com.kamiapk.zyanken.Setsumei">
+        </activity>
+        <activity android:name="com.kamiapk.zyanken.end">
+        </activity>
+        <activity android:name="com.kamiapk.zyanken.syazai">
+        </activity>
+        <activity android:name="com.kamiapk.zyanken.lose">
+        </activity>
+        <activity android:name="com.kamiapk.zyanken.win">
+        </activity>
+        <activity android:name="com.kamiapk.zyanken.zyanken_anime">
+        </activity>
+        <activity android:name="com.kamiapk.zyanken.Battle_Screen">
+        </activity>
+        <activity android:name="com.kamiapk.zyanken.Rank_View">
+        </activity>
+        <activity android:name="com.kamiapk.zyanken.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
